@@ -7,3 +7,7 @@ Small examples to demonstrate learning Flask.
 ### helloWorld.py
 
 Simply prints "Hello, world!"
+
+### htmlTags.py
+
+Prints a heading level 1 with the text "This is a test!"
