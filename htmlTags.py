@@ -11,11 +11,11 @@ $ python htmlTags.py
 from flask import Flask #We only use the flask.Flask class (for now).
 
 #Create the app. We pass __name__, which will be "__main__".
-app:Flask=Flask(__name__)
+app=Flask(__name__)
 
 #Route directory (by default 127.0.0.1:5000/).
 @app.route("/")
-def test()->str:
+def test():
 	"""Simply return the text you want printed (with your HTML tags inline)."""
 	return "<h1>This is a test!</h1>"
 
